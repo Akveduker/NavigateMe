@@ -1,0 +1,52 @@
+@import './vars';
+/*=================== fonts ===================*/
+@mixin fontExtraBold {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 800;
+}
+@mixin fontBold {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+}
+@mixin fontSemibold {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+}
+@mixin fontMedium {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+}
+@mixin fontRegular {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+}
+/*=================== buttons ===================*/
+@mixin primaryButton {
+  padding: 13px 13px 12px;
+  background: $btnGradient;
+  color: #fff;
+  border: 0;
+  font-size: 24px;
+  letter-spacing: 0.24px;
+  line-height: 130%;
+  text-shadow: 2px 1px 4px rgba(40, 40, 40, 0.32);
+  text-align: center;
+  border-radius: 4px;
+  @include fontBold;
+}
+
+@mixin textOutline($color) {
+  text-shadow:
+    -1px -1px 0 $color,
+    1px -1px 0 $color,
+    -1px 1px 0 $color,
+    1px 1px 0 $color;
+}
+@mixin textOutlineWithShadow($color) {
+  text-shadow:
+    -1px -1px 0 $color,
+    1px -1px 0 $color,
+    -1px 1px 0 $color,
+    1px 1px 0 $color,
+    -4px 0px $color;
+}

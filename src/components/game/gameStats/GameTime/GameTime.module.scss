@@ -1,0 +1,27 @@
+@import '@styles/mixins';
+.container {
+  font-size: 34px;
+  @include fontExtraBold;
+  letter-spacing: 1.02px;
+  line-height: 130%;
+  color: $whiteFirst;
+  display: flex;
+  align-items: center;
+  @include textOutline($violet);
+  position: relative;
+  padding: 6px 0;
+}
+.icon {
+  width: 56px;
+  height: 56px;
+  svg {
+    width: 56px;
+    height: 56px;
+  }
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.text {
+  margin-left: 64px;
+}

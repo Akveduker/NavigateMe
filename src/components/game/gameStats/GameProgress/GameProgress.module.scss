@@ -1,0 +1,18 @@
+.container {
+  height: 56px;
+  position: relative;
+  box-shadow: -1px -2px 4px 4px rgba(138, 69, 169, 0.4) inset;
+  border-radius: 51px;
+  padding: 4px;
+}
+.stars {
+  position: absolute;
+  right: -10px;
+  top: -20px;
+}
+.progress {
+  background-color: #4670fa;
+  height: 100%;
+  box-shadow: 0px -10px 10px 0px rgba(3, 12, 42, 0.5) inset;
+  border-radius: 52px;
+}

@@ -1,0 +1,28 @@
+@import '@styles/vars';
+@import '@styles/mixins';
+.container {
+  border-radius: 0 24px 24px 0;
+  border: 2px solid $lightViolet;
+  color: $VioletSecond;
+  padding: 10px 14px 10px 26px;
+  display: inline-block;
+  font-size: 20px;
+  letter-spacing: 0.6px;
+  position: relative;
+  background-color: #fff;
+  margin-left: 30px;
+}
+.container b {
+  @include fontMedium;
+  font-size: 22px;
+  color: #7141b7;
+}
+.icon {
+  svg {
+    position: absolute;
+    left: -36px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+  }
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap');
+@import 'vars.scss';
+@import 'mixins.scss';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  color: $violet;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.42px;
+  @include fontRegular;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+h1 {
+  font-size: 48px;
+  line-height: 120%;
+  @include fontExtraBold;
+}
+
+h2,
+h3 {
+  line-height: 130%;
+  @include fontMedium;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 28px;
+}
+h4 {
+  font-size: 24px;
+}
+button {
+  cursor: pointer;
+}

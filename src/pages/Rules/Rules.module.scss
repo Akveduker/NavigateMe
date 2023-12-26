@@ -1,0 +1,62 @@
+@import '@styles/vars';
+.header {
+  text-align: center;
+}
+.headerWrapper {
+  padding: 0 71px;
+}
+.subtitle {
+  margin-top: 5px;
+  font-size: 30px;
+  letter-spacing: 0.9px;
+  line-height: 130%;
+}
+.container {
+  max-width: 1200px;
+  margin: 80px auto 0;
+}
+.rules {
+  background-color: $whiteFirst;
+  border-radius: 8px;
+  box-shadow:
+    10px 14px 28px 0px $blueTransparent,
+    -8px -14px 28px 0px $whiteTransparent;
+  padding: 60px;
+}
+.rulesHeader {
+  text-align: center;
+}
+.rulesSubtitle {
+  font-size: 20px;
+  line-height: 140%;
+  margin-top: 10px;
+}
+.rulesContainer {
+  display: flex;
+  text-align: center;
+  margin: 41px auto 0;
+  justify-content: space-between;
+  letter-spacing: 0.42px;
+  max-width: 883px;
+}
+.item {
+  margin-right: 35px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 23px;
+}
+.icon {
+  margin-right: 12px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.link {
+  max-width: 260px;
+  margin: 40px 0 0 auto;
+}

@@ -1,0 +1,7 @@
+@import '@styles/vars';
+.container {
+  border: 4px solid $blue;
+  background-color: $whiteFirst;
+  border-radius: 40px;
+  box-shadow: 2px 4px 16px 0px rgba(28, 6, 64, 0.24);
+}
