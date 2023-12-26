@@ -1,6 +1,6 @@
 import React from 'react';
 import store from '@store/store';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
 import 'normalize.css';
@@ -10,10 +10,10 @@ import App from './App';
 const root = createRoot(document.getElementById('root') as HTMLElement);
 /* eslint-disable @typescript-eslint/comma-dangle */
 root.render(
-  <BrowserRouter>
+  <HashRouter>
     <Provider store={store}>
       <App />
     </Provider>
-  </BrowserRouter>,
+  </HashRouter>,
 );
 /* eslint-enable @typescript-eslint/comma-dangle */
